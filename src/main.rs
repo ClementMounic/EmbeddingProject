@@ -135,7 +135,7 @@ impl BaseDeDonnees {
     }
 }
 
-/// Calcule la similarité cosinus entre deux vecteurs.
+/// Calcule la similarité cosinus entre deux vecteurs parallèlement.
 ///
 /// # Arguments
 /// * `vector1` - Premier vecteur.
