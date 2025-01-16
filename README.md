@@ -10,6 +10,7 @@ Ce projet est une implémentation en Rust d'une base de données simple permetta
 - **Insertion et mise à jour des documents** : Ajoutez ou modifiez des documents dans une collection.
 - **Recherche par similarité** : Trouvez les `k` documents les plus similaires à un vecteur donné dans une collection.
 - **Threading** : Calcul de la similarité cosinus optimisé grâce au multi-threading.
+- **Génération de documentation** : Utilisez Rustdoc pour générer une documentation claire et complète directement depuis le code source.
 
 ---
 
@@ -24,8 +25,8 @@ Ce projet est une implémentation en Rust d'une base de données simple permetta
 
 1. Clonez le dépôt :
    ```bash
-   git clone <url_du_projet>
-   cd <nom_du_projet>
+   git clone https://github.com/ClementMounic/EmbeddingProject
+   cd EmbeddingProject
    ```
 2. Assurez-vous que Rust est installé :
    ```bash
@@ -87,6 +88,16 @@ cos(vector1, vector2) = produit_scalaire / (magnitude1 * magnitude2)
 - Le calcul du produit scalaire et des magnitudes est parallélisé à l'aide de threads pour optimiser les performances.
 
 ---
+
+## Documentation
+Ce projet utilise Rustdoc pour générer une documentation automatique à partir des commentaires du code source. Pour générer la documentation locale :
+```bash
+cargo doc --open
+```
+Vous pouvez consulter la documentation dans votre navigateur une fois le processus terminé.
+
+---
+
 
 
 
